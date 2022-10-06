@@ -1,0 +1,24 @@
+.li-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.li-para {
+  color: #475569;
+  font-size: 18px;
+  font-family: Roboto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.li-image {
+  height: 30px;
+}
+
+.li-btn {
+  border: none;
+  background-color: #ffffff;
+}

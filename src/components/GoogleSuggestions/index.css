@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+@media (max-width: 576px) {
+  .container {
+    width: 80%;
+  }
+}
+.image {
+  height: 180px;
+  padding: 30px;
+}
+@media (max-width: 576px) {
+  .image {
+    height: 100px;
+    padding-left: 25px;
+  }
+}
+.ul-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-color: #bfbfbf;
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .ul-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+.inputEle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.search-logo {
+  height: 30px;
+  width: 20px;
+  padding-top: 10px;
+}
+
+.search-input {
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  margin-top: 15px;
+  padding-left: 20px;
+}
